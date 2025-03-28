@@ -1,12 +1,16 @@
 /* TABLET */
 
  @media screen and (max-width: 768px) {
-    .site-header{
-        max-width: 80%;
+    .container{
+        max-width: 90%;
+        margin: 0 auto;
+        text-align: center;
     }
-
-    .section{
-        max-width: 80%;
+   
+    .row{
+        max-width: 90%;
+        margin: 0 auto;
+        align-items: center;  
     }
 
 
