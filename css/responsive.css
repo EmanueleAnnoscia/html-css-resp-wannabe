@@ -1,3 +1,12 @@
+@media screen and (max-width:1140px) {
+    .container{
+        max-width: 768px;
+
+    }
+    
+}
+
+
 /* TABLET */
 
  @media screen and (max-width: 768px) {
