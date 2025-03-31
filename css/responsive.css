@@ -12,14 +12,14 @@
  @media screen and (max-width: 768px) {
     .container{
         max-width: 90%;
-        margin: 0 auto;
-        text-align: center;
+        /* margin: 0 auto;
+        text-align: center; */
     }
    
-    .row{
+    /* .row{
         max-width: 90%;
         margin: 0 auto;
-        align-items: center;  
+        align-items: center;   */
     }
 
 
@@ -29,7 +29,7 @@
  @media screen and (max-width: 480px){
     
     
-    .container{
+    /* .container{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -37,13 +37,25 @@
         margin: 0 auto;
         text-align: center;
     }
-   
+    */
     .row{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         max-width: 90%;
         margin: 0 auto;
-        align-items: center;  
+        align-items: center; 
+    }
+
+    .steps{
+        margin-bottom: 0px;
+        padding: 3rem 0;
+    }
+
+    .why-us{
+        background-color: black;
+        margin-bottom: 0px;
+        padding: 3rem;
+
     }
 }
